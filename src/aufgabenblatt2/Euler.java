@@ -9,7 +9,7 @@ public class Euler {
 		}
 	return result;
 	}
-
+p
 	public static double myExp(int x) {
 		// TODO berechne e^x mittels der auf Aufgabenblatt 2 angegebenen Formel
 		double result=1;

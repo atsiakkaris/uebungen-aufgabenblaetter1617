@@ -13,7 +13,7 @@ public class Euler {
 	public static double myExp(int x) {
 		// TODO berechne e^x mittels der auf Aufgabenblatt 2 angegebenen Formel
 		double result=1;
-		for (int ii=1; ii<= 10; ii++) {
+		for (int ii=1; ii<= 100; ii++) {
 		result = result + ( Math.pow(x, ii) / calcFactorial(ii) );
 		
 //		System.out.println("Result="+result);
@@ -29,8 +29,8 @@ public class Euler {
 
 public static void main(String[] args){
 	
-	double yo=myExp(3);
+	double yo=myExp(5);
 	System.out.println("Das Egebniss ist " + yo +".");
-}
+	}
 	
 }

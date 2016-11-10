@@ -12,7 +12,7 @@ public class Euler {
 
 	public static double myExp(int x) {
 		double result=1;
-		for (int ii=1; ii<= 40; ii++) {
+		for (int ii=1; ii<= 10; ii++) {
 		result = result + ( Math.pow(x, ii) / calcFactorial(ii) );
 		}
 		return result;

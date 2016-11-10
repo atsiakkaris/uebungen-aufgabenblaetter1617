@@ -5,9 +5,10 @@ import org.junit.Test;
 
 public class testMathExpVsMyExp {
 	
+	@SuppressWarnings("deprecation")
 	@Test
 	public void Euler() {
-		Assert.assertEquals("Die ExFunktion aus 5 ist 148.41315910257657", Math.exp(5));
+		Assert.assertEquals("Die ExpFunktion aus 5 ist:", Euler.myExp(5), Math.exp(5), 0.1);
 	}
 
 }

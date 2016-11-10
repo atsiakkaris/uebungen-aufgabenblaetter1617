@@ -11,14 +11,9 @@ public class Euler {
 	}
 
 	public static double myExp(int x) {
-		// TODO berechne e^x mittels der auf Aufgabenblatt 2 angegebenen Formel
 		double result=1;
-		for (int ii=1; ii<= 100; ii++) {
+		for (int ii=1; ii<= 40; ii++) {
 		result = result + ( Math.pow(x, ii) / calcFactorial(ii) );
-		
-//		System.out.println("Result="+result);
-//		System.out.println("Fakultät="+calcFactorial(ii));
-//		System.out.println();
 		}
 		return result;
 	}
